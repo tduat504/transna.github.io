@@ -1,0 +1,44 @@
+/* style slider */
+.carousel-item {
+  height: -720px;
+}
+.carousel-item img {
+  image: -200px;
+}
+.carousel-item {
+  margin-top: 65px;
+}
+
+/* akhir style slider */
+
+/* style container */
+.container {
+  padding-top: 100px;
+}
+.container {
+  padding-bottom: -15px;
+}
+.container {
+  margin-top: 25px;
+}
+.container text {
+  margin-bottom: -auto;
+  padding-top: 50px;
+}
+
+.oblique {
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-style: bold;
+  font-size: 25px;
+}
+
+/* navbar style */
+
+.nav-item {
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
