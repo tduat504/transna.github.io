@@ -15,11 +15,12 @@
   </head>
 <body id="home">
 
+  
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary shadow -p">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow -p">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="img/logoblog.png" alt="" width="250" height="63">
+            <img src="img/logotransna.png" alt="" width="200" height="50">
           </a>
         <!-- <a class="navbar-brand" href="#">Transna Dirgantara Utama</a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,13 +31,16 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Fleet</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="#fleet">Private Jets</a></li>
                 <li><a class="dropdown-item" href="#fleet">Fixed Wings</a></li>
                 <li><a class="dropdown-item" href="#fleet">Rotary Wings</a></li>
               </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Our Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Our Projects</a>
@@ -54,6 +58,7 @@
     <!-- Akhir Navbar -->
 
     <!-- Slider -->
+    <div class="container-fluid"></div>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -65,7 +70,8 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="opacity"></div>
+        <div class="carousel-inner opacity">
           <div class="carousel-item active" data-interval="1000">
             <img src="img/slider1.gif" class="d-block w-100" alt="AT504">
             <div class="carousel-caption d-none d-md-block">
@@ -143,7 +149,7 @@
   
     <!-- About -->
     <section id="about">
-    <div class="container">
+    <div class="container-about">
         <div class="row text-center pb-5">
             <div class="col">
                 <h2>About TRANSNA</h2>
@@ -162,12 +168,12 @@
     <!-- Akhir About -->
   
   
-    <!-- Fleet -->
-    <section id="fleet">
-        <div class="container">
+    <!-- Service -->
+    <!-- <section id="fleets">
+        <div class="container-fleets">
             <div class="row text-center pb-3">
                 <div class="col">
-                    <h2>Our Fleet</h2>
+                    <h2>Our Fleets</h2>
                 </div>
             </div>          
             <div class="row justify-content-center">
@@ -198,21 +204,45 @@
             </div>
             </div>
          </div>         
-    </section>
-    <!-- Akhir Fleet -->
+    </section> -->    
+    <section id="services">
+    <div class="container-services"></div>        
+          <div class="row text-center pb-3">
+              <div class="col">
+                  <h2>Our Services</h2>
+              </div>
+          </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="img/8.png" class="card-img-top border border-white" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/9.png" class="card-img-top border border-white" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/9.png" class="card-img-top border border-white" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Services -->
 
     <!-- Project -->
     <section id="projects">
-        <div class="container">
+        <div class="container-project">
             <div class="row text-center pb-1">
                 <div class="col">
                     <h2>Our Projects</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-1">
                     <div class="card">
-                        <img src="img/gmp-project.gif" class="card-img-top" alt="fleet 1">
+                        <img src="img/gmp-project.gif" class="card-img-top" alt="project 1">
                         <div class="card-body">
                         <p class="card-text">Seeding, fertilizing and processing plants using Airplanes or Helicopters to control weeds, insects, and fungi-Spreading, Spraying, we also do Water Bombing.</p>
                         </div>
@@ -220,7 +250,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="img/bnpb-project.gif" class="card-img-top" alt="fleet 2">
+                        <img src="img/bnpb-project.gif" class="card-img-top" alt="project 2">
                         <div class="card-body">
                         <p class="card-text">Sending airplanes and/or helicopters to locate and rescue people, ships or other aircraft who are in trouble or fear an imminent crisis.</p>
                         </div>
@@ -228,18 +258,10 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="img/fastfood-project.gif" class="card-img-top" alt="fleet 3">
+                        <img src="img/fastfood-project.gif" class="card-img-top" alt="project 3">
                         <div class="card-body">
                         <p class="card-text">Offers greater flexibility in terms of scheduling, routing and destinations for business trips or VIP vacation trips. Exclusiveness is Our commitment for you.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="card">
-                    <img src="img/medco-project.gif" class="card-img-top" alt="fleet 3">
-                    <div class="card-body">
-                    <p class="card-text">Offers greater flexibility in terms of scheduling, routing and destinations for business trips or VIP vacation trips. Exclusiveness is Our commitment for you.</p>
                     </div>
                 </div>
             </div>
@@ -250,14 +272,14 @@
     
     <!-- Contact -->
     <section id="contact">
-        <div class="container">
-            <div class="row text-center pb-3">
+        <div class="container-contact">
+            <div class="row text-center mt-1">
                 <h2>Contact</h2>
             </div>
                 <form>
                 <div class="row justify-content-center">
-                    <div class="col-md-6">
-                    <div class="mb-3">
+                    <div class="col-md-5">
+                    <div class="mb-2">
                       <label for="email" class="form-label">Email address</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></div>
                     <div class="mb-3">
@@ -271,14 +293,18 @@
                   </form>
         </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L34.3,106.7C68.6,85,137,43,206,26.7C274.3,11,343,21,411,58.7C480,96,549,160,617,154.7C685.7,149,754,75,823,53.3C891.4,32,960,64,1029,106.7C1097.1,149,1166,203,1234,213.3C1302.9,224,1371,192,1406,176L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    
     <!-- Akhir Contact -->
   
       
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-    <p>Created for <a href="https://www.transna.co.id/" class="text-white fw-bold">Transna Dirgantara Utama</a></p>
-    </footer>
+    <div class="container-footer"></div>
+    <div class="card text-center fixed-bottom">
+      <div class="card-body">
+        <h6 class="card-title">TRANSNA DIRGANTARA UTAMA</h6>
+        <p class="card-text1">Applicable data in this website are for information and marketing support only.</p>
+      </div>
+    </div>
     <!-- Akhir Footer -->
 
     <!-- Optional JavaScript; choose one of the two! -->

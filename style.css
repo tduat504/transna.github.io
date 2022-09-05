@@ -1,25 +1,58 @@
 /* style slider */
 .carousel-item {
-  height: -720px;
+  height: -620px;
 }
 .carousel-item img {
   image: -200px;
 }
 .carousel-item {
-  margin-top: 65px;
+  margin-top: 3px;
+}
+
+.opacity {
+  opacity: 0.7;
 }
 
 /* akhir style slider */
 
+/* navbar style */
+
 /* style container */
+
+.container-fleets {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+.container-about {
+  padding-top: 6rem;
+  padding-bottom: -25px;
+}
+
+.container-project {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+.container-contact {
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+.container-services {
+  padding-top: -25px;
+  padding-bottom: 10rem;
+}
+
 .container {
-  padding-top: 100px;
+  padding-top: 75px;
 }
 .container {
-  padding-bottom: -15px;
+  padding-bottom: 15px;
 }
 .container {
   margin-top: 25px;
+  margin-bottom: 50px;
 }
 .container text {
   margin-bottom: -auto;
@@ -41,4 +74,15 @@
 .nav-item {
   font-size: 1.2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-color: #000;
+}
+
+/* footer style */
+.card-text1 {
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.card {
+  border-color: white;
 }
