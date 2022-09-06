@@ -17,7 +17,7 @@
 
   
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow -p">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="img/logotransna.png" alt="" width="200" height="50">
@@ -58,7 +58,7 @@
     <!-- Akhir Navbar -->
 
     <!-- Slider -->
-    <div class="container-fluid"></div>
+    <div class="container-slider-fluid"></div>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -68,7 +68,7 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button> -->
         </div>
         <div class="opacity"></div>
         <div class="carousel-inner opacity">
@@ -112,7 +112,7 @@
                 <p class="oblique">Medically equipped with trained emergency personnel who generously provides care enroute to evacuate of the injured from the scene of an unfortunate accident or sick person needing high-priority attention at a better-equipped facility.</p>
               </div>
           </div>
-          <div class="carousel-item" data-interval="1000">
+          <!-- <div class="carousel-item" data-interval="1000">
             <img src="img/slider6A.gif" class="d-block w-100" alt="Embraer650">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="display-3"
@@ -127,7 +127,7 @@
                 <h5>Private Flight Charters</h5>
                 <p class="oblique">Offer greater flexibility in terms of scheduling, routing, and destinations which purpose for business travel or VIP leisure trip.</p>
             </div>
-          </div>
+          </div> -->
           <div class="carousel-item" data-interval="2000">
             <img src="img/accuracy.gif" class="d-block w-100" alt="e6b">
             <div class="carousel-caption d-none d-md-block">
@@ -150,10 +150,10 @@
     <!-- About -->
     <section id="about">
     <div class="container-about">
-        <div class="row text-center pb-5">
+        <div class="row text-center">
             <div class="col">
                 <h2>About TRANSNA</h2>
-                <div class="row justify-content-center fs-5 text-center">
+                <div class="row justify-content-center mb-3">
                     <div class="col-md-4">
                         <P>With our combined team of highly experienced and professionals, who held senior positions in various airlines in Indonesia for more than 15 years, we are recognized as a leader in the aviation service provision industry. We tailor our services differently to suit the needs of our customers with a complete service package, including each specific component to suit their particular needs. Our unique difference lies in the experience of our employees, our focus on customer needs, and our ability to provide excellent service on time, on budget, at anytime.</P>
                     </div>
@@ -207,13 +207,42 @@
     </section> -->    
     <section id="services">
     <div class="container-services"></div>        
-          <div class="row text-center pb-3">
+          <div class="row text-center mb-3">
               <div class="col">
                   <h2>Our Services</h2>
               </div>
           </div>
-    <div class="card-group">
-      <div class="card">
+    <div class="card">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/agri-project.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center"></h5>
+              <p class="card-text text-center"><div id="text"></div></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/wb-project.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center"></h5>
+              <p class="card-text"><div id="text"></div></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/other-project.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center"></h5>
+              <p class="card-text"><div id="text"></div></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card">
         <img src="img/agri-project.png" class="card-img-top border border-white" alt="...">
         <div class="card-body">
         </div>
@@ -228,19 +257,19 @@
         <div class="card-body">
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Akhir Services -->
 
     <!-- Project -->
     <section id="projects">
         <div class="container-project">
-            <div class="row text-center pb-1">
+            <div class="row text-center mb-3">
                 <div class="col">
                     <h2>Our Projects</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-1">
+            <div class="row justify-content-center mb-3">
+                <div class="col-md-4 mb-3">
                     <div class="card">
                         <img src="img/gmp-project.gif" class="card-img-top" alt="project 1">
                         <div class="card-body">
@@ -272,28 +301,35 @@
     
     <!-- Contact -->
     <section id="contact">
-        <div class="container-contact">
-            <div class="row text-center mt-1">
-                <h2>Contact</h2>
-            </div>
-                <form>
-                <div class="row justify-content-center">
-                    <div class="col-md-5">
-                    <div class="mb-2">
-                      <label for="email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></div>
-                    <div class="mb-3">
-                      <label for="name" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="name"></div>
-                    <div class="mb-3">
-                      <label for="message" class="form-label">Message</label>
-                      <textarea class="form-control" id="message" rows="3"></textarea></div>
-                      <button type="submit" class="btn btn-primary">Send</button>
-                </div>                    
-                  </form>
+      <div class="container-contact">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact</h2>
+          </div>
         </div>
-    </section>
-    
+        <div class="row justify-content-center mb-1">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="Your Full name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="Your Email">
+              </div>
+
+              <!-- text area -->
+              <div class="mb-1">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="2"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>    
     <!-- Akhir Contact -->
   
       
